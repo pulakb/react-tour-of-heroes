@@ -1,3 +1,15 @@
-/**
- * Created by pulak on 10/04/16.
- */
+import React from 'react';
+
+class HeroDetailComponent extends React.Component {
+    constructor (props) {
+        super(props);
+    }
+
+    render () {
+        return (
+            <h3>Hello {this.props.params.id}</h3>
+        )
+    }
+}
+
+export default HeroDetailComponent;

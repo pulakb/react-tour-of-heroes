@@ -1,3 +1,5 @@
-/**
- * Created by pulak on 10/04/16.
- */
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app/App';
+
+ReactDOM.render(<App/>, document.getElementById('app'));
